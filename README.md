@@ -44,8 +44,6 @@ Like previous offerings, the course covers basic Machine Learning concepts and v
 | Time Played Prediction |          44/603          |         68/603          |
 
 ### [Assignment 2](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/assignment2.pdf)
-*My project partner is Nate del Rosario ([Github](https://github.com/natdosan)). The solutions in the repository are the collective efforts between us, with help of TAs.*
-
 - This is an open-ended project.
 
 *My project partners are [Nate del Rosario](https://github.com/natdosan), Chuong Nguyen, and Jacob Lin. The solution for this assignment/project is the collective efforts among us.*
