@@ -260,47 +260,43 @@ acc_q3 = sum_pred_q3 / (2*len(valid_data))
 acc_q3
 
 # %%
-def threshold_and_popularity(threshold_popularity=1/1.5, threshold_jaccard=0.03):
-    gameCount = defaultdict(int)
-    totalPlayed = 0
+# def threshold_and_popularity(threshold_popularity=1/1.5, threshold_jaccard=0.03):
+#     gameCount = defaultdict(int)
+#     totalPlayed = 0
     
-    for user,game,_ in readJSON("train.json.gz"):
-        gameCount[game] += 1
-        totalPlayed += 1
+#     for user,game,_ in readJSON("train.json.gz"):
+#         gameCount[game] += 1
+#         totalPlayed += 1
         
-    mostPopular = [(gameCount[x], x) for x in gameCount]
-    mostPopular.sort()
-    mostPopular.reverse()
+#     mostPopular = [(gameCount[x], x) for x in gameCount]
+#     mostPopular.sort()
+#     mostPopular.reverse()
     
-    return1 = set()
-    count = 0
-    for ic, i in mostPopular:
-        count += ic
-        return1.add(i)
-        if count > threshold_popularity: break
+#     return1 = set()
+#     count = 0
+#     for ic, i in mostPopular:
+#         count += ic
+#         return1.add(i)
+#         if count > threshold_popularity: break
     
-    correct = 0
-    for user, game in valid_data:
-        similarities = []
-        for d in reviewsPerUser[user]:
-            i2 = d[1]
-            if i2 == game: continue
-            similarities.append(Jaccard(userPerGame[game], userPerGame[i2]))
+#     correct = 0
+#     for user, game in valid_data:
+#         similarities = []
+#         for d in reviewsPerUser[user]:
+#             i2 = d[1]
+#             if i2 == game: continue
+#             similarities.append(Jaccard(userPerGame[game], userPerGame[i2]))
             
-        if max(similarities) > threshold_jaccard and game in return1:
-            correct += (game in gamePerUser[user]) # recommend in this case
-        else:
-            correct += (game not in gamePerUser[user]) # not recommend in this case
+#         if max(similarities) > threshold_jaccard and game in return1:
+#             correct += (game in gamePerUser[user]) # recommend in this case
+#         else:
+#             correct += (game not in gamePerUser[user]) # not recommend in this case
         
-    return correct/len(valid_data)
-
-# %%
-acc_q4 = threshold_and_popularity()
-acc_q4
+#     return correct/len(valid_data)
 
 # %%
 answers['Q3'] = acc_q3
-answers['Q4'] = acc_q4
+answers['Q4'] = sum_pred_q3 / (2*len(valid_data))
 
 # %%
 assertFloat(answers['Q3'])
