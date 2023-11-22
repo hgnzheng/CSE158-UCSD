@@ -38,10 +38,10 @@ Like previous offerings, the course covers basic Machine Learning concepts and v
 - To predict an user's play time on a given game, I implemented the Latent Factor Model with bias terms only. Then, I fine-tuned regularization constant and performed an early stop (when validation MSE starts to increase) to avoid overfitting issues.
 - I eventually achieved a pretty good performance for both models, particularly for the play prediction model. My performance on the course leaderboard is as follows: 
 
-|          Task          | Private Leaderboard Rank | Public Leaderboard Rank |
-| :--------------------: | :----------------------: | :---------------------: |
-|    Play Prediction     |          11/603          |         20/603          |
-| Time Played Prediction |          44/603          |         68/603          |
+|          Task          |  Private Leaderboard Rank  |  Public Leaderboard Rank   |
+| :--------------------: |  :----------------------:  |  :---------------------:   |
+|    Play Prediction     |       11/603 (0.7633)      |       20/603 (0.7561)      |
+| Time Played Prediction | 44/603 (3.007899615218004) | 68/603 (3.053702113228402) |
 
 ### [Assignment 2](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/assignment2.pdf)
 - This is an open-ended project.
