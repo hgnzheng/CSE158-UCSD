@@ -1,0 +1,20 @@
+**Part 1**
+
+I used the Bayesian Personalized Ranking model, with ensemble to the popularity ranking baseline.
+
+* I fine-tuned the threshold for popularity and found out `totalPlayed/1.5` gives the best performance. 
+* Then, I used the Bayesian Personalized Ranking Model (bias only) to output a prediction score for each user, game pair. 
+* My AUC score shows my model gives a 83% accuracy.
+* For the output prediction, I ensembles the popularity model from the baseline and the BPR model.
+- For each user, we know there is half positive labels and half negative labels. 
+- If the game is popular, we assign a pretty high score so that the the game is going to be recommended.
+- Otherwise, we calculate the score using BPR model and then sort the scores for each user. The top half of user, game pairs would be predicted as 1, whereas the other half would be predicted as 0.
+
+** Part 2**
+
+I was developing based on the HW3 solution. 
+
+* In addition, I used the whole dataset to train the model.
+* I tried out different lambda values and fine-tuned the regularizing constant during the training to get to 5.02 as a working value.
+* Developed the iteration method such that we have an early stop when MSE does not improve anymore.
+* Additionally, I computed the global average using all the data available, but updated the alpha value only using training dataset. It seems to perform better.
