@@ -3,6 +3,7 @@ pml-notebook/*
 input/*
 Reference-books/*
 input/*
+Homeworks/*
 Homeworks/Homework-1/fantasy_10000.json.gz
 Homeworks/Homework-1/beer_50000.json
 Homeworks/Homework-2/amazon_reviews_us_Musical_Instruments_v1_00.tsv.gz
