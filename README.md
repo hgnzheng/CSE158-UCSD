@@ -64,4 +64,4 @@ Like previous offerings, the course covers basic Machine Learning concepts and v
 *My project partners are [Nate del Rosario](https://github.com/natdosan), Chuong Nguyen, and Jacob Bolano. The solution for this assignment/project is the collective efforts among us.*
 
 ## End Note
-*Special thanks to Professor [Julian McAuley](https://cseweb.ucsd.edu/~jmcauley/) for his dedication in teaching the course and answering questions on Piazza. Also, I appreciate TAs' efforts to hold office hours and answer Piazza posts.*
+*Special thanks to Prof. [Julian McAuley](https://cseweb.ucsd.edu/~jmcauley/) for his dedication in teaching the course and answering questions on Piazza. Also, I appreciate TAs' efforts to hold office hours and answer Piazza posts.*
