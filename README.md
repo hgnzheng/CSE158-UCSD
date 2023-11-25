@@ -4,6 +4,10 @@ CSE 158 Recommender Systems and Web Mining taken at UC San Diego during Fall Qua
 
 [Fall 2023 Website](https://cseweb.ucsd.edu/classes/fa23/cse258-a/)
 
+[Winter 2023 DSC 148 Website](https://shangjingbo1226.github.io/teaching/2023-winter-DSC148-DM)
+
+*Note: DSC 148 Introduction to Data Mining is seen as an equivalent course for Data Science major requirement purpose. It is taught by Prof. [Jingbo Shang](https://shangjingbo1226.github.io/) during Winter Quarter each year.*
+
 ***To uphold academic integrity, please do not use any solutions of the projects as your own. MOSS will be able to tell and you will suffer from significant academic integrity violation consequences.***
 
 Like previous offerings, the course covers basic Machine Learning concepts and various approaches for Recommender Systems. Topics include:
