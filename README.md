@@ -16,21 +16,30 @@ Like previous offerings, the course covers basic Machine Learning concepts and v
 * Visual Recommendation (Complementary Item Recommendation, Fashion and Outfit Recommendation, Fit Prediction)
 * Ethics and Fairness (Filter Bubbles and Recommendation Diversity, Calibration, Serendipity, and Other "Beyond Accuracy" Measures, Algorithm Fairness)
 
+[Course outline slides](https://cseweb.ucsd.edu/classes/fa23/cse258-a/slides/intro_outline.pdf)
+
 ## Homework
 
-### [Homework 1](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/homework1.pdf)
+### [Homework 1: Regression & Classification](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/homework1.pdf)
 - Basic Logistic Regression and Classification Tasks on [GoodReads Fantasy Reviews](https://cseweb.ucsd.edu/classes/fa23/cse258-a/data/fantasy_10000.json.gz) and [Beer Reviews](https://cseweb.ucsd.edu/classes/fa23/cse258-a/data/beer_50000.json) datasets.
+- Score: 8.0/8.0
 
-### [Homework 2](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/homework2.pdf)
-- Implemented Logistic Regression with One-Hot Encoding, Precision @k and BER, and Similarity-based Rating Predictions on [Beer Reviews](https://cseweb.ucsd.edu/classes/fa23/cse258-a/data/beer_50000.json) and [Amazon Music Instruments](https://cseweb.ucsd.edu/classes/fa23/cse258-a/data/amazon_reviews_us_Musical_Instruments_v1_00.tsv.gz) datasets.
+### [Homework 2: Diagnostics & Rating Prediction](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/homework2.pdf)
+- Implemented Logistic Regression with One-Hot Encoding, Precision@k and BER, and Similarity-based Rating Predictions on [Beer Reviews](https://cseweb.ucsd.edu/classes/fa23/cse258-a/data/beer_50000.json) and [Amazon Music Instruments](https://cseweb.ucsd.edu/classes/fa23/cse258-a/data/amazon_reviews_us_Musical_Instruments_v1_00.tsv.gz) datasets.
+- Score: 8.0/8.0
 
-### [Homework 3](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/homework3.pdf)
+### [Homework 3: Play Prediction & Time Played Prediction](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/homework3.pdf)
 - Implemented Similarity-based Recommendation and trained a regressor to predict game playing time on Steam data (head start of Assignment 1).
+- Score: 8.0/8.0
 
-### [Homework 4](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/homework4.pdf)
+### [Homework 4: Text Mining](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/homework4.pdf)
+- Implemented basic Bag-of-Words model to find the most common words. Then, use the word set for a logistic regression to predict the genre of data from [Stem Category Data](https://cseweb.ucsd.edu/classes/fa23/cse258-a/data/steam_category.json.gz).
+- Implemented TF-IDF and used the scores of 1000 most common words to train a logistic regressor to predict genre category.
+- Implemented *item2vec* model on [GoodReads Young Adult Reviews](https://cseweb.ucsd.edu/classes/fa23/cse258-a/data/young_adult_20000.json.gz) dataset to find similar books based on scores from Cosine similarity function.
+- Score: 8.0/8.0
 
 
-## Assignments (Projects)
+## Assignments
 
 ### [Assignment 1](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/assignment1.pdf)
 - A continuation of Homework 3 to optimize and fine-tuning parameters for models in Homework 3. 
@@ -38,10 +47,10 @@ Like previous offerings, the course covers basic Machine Learning concepts and v
 - To predict an user's play time on a given game, I implemented the Latent Factor Model with bias terms only. Then, I fine-tuned regularization constant and performed an early stop (when validation MSE starts to increase) to avoid overfitting issues.
 - I eventually achieved a pretty good performance for both models, particularly for the play prediction model. My performance on the course leaderboard is as follows: 
 
-|          Task          |  Private Leaderboard Rank  |  Public Leaderboard Rank   |
-| :--------------------: |  :----------------------:  |  :---------------------:   |
-|    Play Prediction     |       11/603 (0.7633)      |       20/603 (0.7561)      |
-| Time Played Prediction | 44/603 (3.007899615218004) | 68/603 (3.053702113228402) |
+|          Task          |  Private Leaderboard Rank    |   Public Leaderboard Rank    | 
+| :--------------------: |  :----------------------:    |  :----------------------:    |
+|    Play Prediction     | 11/603 (Top 2% of class)     |            20/603            |
+| Time Played Prediction | 44/603 (Top 8% of class)     |            68/603            | 
 
 ### [Assignment 2](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/assignment2.pdf)
 - This is an open-ended project.
