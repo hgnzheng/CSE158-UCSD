@@ -1,4 +1,4 @@
-# CSE 158 Recommender Systems and Web Mining, UC San Diego
+# CSE 158 Recommender Systems and Web Mining
 
 CSE 158 Recommender Systems and Web Mining taken at UC San Diego during Fall Quarter 2023.
 
