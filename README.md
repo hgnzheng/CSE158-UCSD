@@ -46,7 +46,7 @@ Like previous offerings, the course covers basic Machine Learning concepts and v
 ## Assignments
 
 ### [Assignment 1](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/assignment1.pdf)
-- A continuation of Homework 3 to optimize and fine-tuning parameters for models in Homework 3 on [Steam dataset](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/assignment1.tar.gz). 
+- A continuation of Homework 3 to optimize and fine-tuning parameters for models on [Steam dataset](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/assignment1.tar.gz). 
 - To predict if an user would play a game, given userID and gameID, I implemented the Bayesian Personalized Ranking Model, fine-tuned Adam optimizer learning rate and model's regularization constant, and performed an ensemble with popularity-based recommendation method.
 - To predict an user's play time on a given game, I implemented the Latent Factor Model with bias terms only. Then, I fine-tuned regularization constant and performed an early stop (when validation MSE starts to increase) to avoid overfitting issues.
 - I eventually achieved a reasonably good performance for both models, particularly for the play prediction task. My performance on the course Leaderboard is as follows: 
