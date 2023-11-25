@@ -45,12 +45,14 @@ Like previous offerings, the course covers basic Machine Learning concepts and v
 - A continuation of Homework 3 to optimize and fine-tuning parameters for models in Homework 3 on [Steam dataset](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/assignment1.tar.gz). 
 - To predict if an user would play a game, given userID and gameID, I implemented the Bayesian Personalized Ranking Model, fine-tuned Adam optimizer learning rate and model's regularization constant, and performed an ensemble with popularity-based recommendation method.
 - To predict an user's play time on a given game, I implemented the Latent Factor Model with bias terms only. Then, I fine-tuned regularization constant and performed an early stop (when validation MSE starts to increase) to avoid overfitting issues.
-- I eventually achieved a pretty good performance for both models, particularly for the play prediction model. My performance on the course leaderboard is as follows: 
+- I eventually achieved a reasonably good performance for both models, particularly for the play prediction task. My performance on the course Leaderboard is as follows: 
 
-|          Task          |  Private Leaderboard Rank    |   Public Leaderboard Rank    | 
-| :--------------------: |  :----------------------:    |  :----------------------:    |
-|    Play Prediction     | 11/603 (Top 2% of class)     |            20/603            |
-| Time Played Prediction | 44/603 (Top 8% of class)     |            68/603            | 
+|          Task          |  Private Leaderboard Rank     |   Public Leaderboard Rank    | 
+| :--------------------: |  :----------------------:     |  :----------------------:    |
+|    Play Prediction     | **11/603 (Top 2% of class)**  |            20/603            |
+| Time Played Prediction | 44/603 (Top 8% of class)      |            68/603            | 
+
+*Note: If graduate students (both Master's and PhD) in CSE 258/MGTA 461 are included, my ranks are **34/1209 (Top 3%)** for Play Prediction task and 154/1209 for Time Played Prediction task.*
 
 ### [Assignment 2](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/assignment2.pdf)
 - This is an open-ended project.
