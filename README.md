@@ -61,7 +61,7 @@ Like previous offerings, the course covers basic Machine Learning concepts and v
 ### [Assignment 2](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/assignment2.pdf)
 - This is an open-ended project.
 
-*My project partners are [Nate del Rosario](https://github.com/natdosan), Chuong Nguyen, and Jacob Bolano. The solution for this assignment/project is the collective efforts among us.*
+*My project partners are [Nate del Rosario](https://github.com/natdosan), [Chuong Nguyen](https://github.com/chuongnguyen26), and [Trevan Nguyen](https://github.com/SudoSure). The solution for this assignment/project is the collective efforts among us.*
 
 ## End Note
 *Special thanks to Prof. [Julian McAuley](https://cseweb.ucsd.edu/~jmcauley/) for his dedication in teaching the course and answering questions on Piazza. Also, I appreciate TAs' efforts to hold office hours and answer Piazza posts.*
