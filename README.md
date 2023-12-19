@@ -59,9 +59,12 @@ Like previous offerings, the course covers basic Machine Learning concepts and v
 *Note: If graduate students (both Master's and PhD) in CSE 258/MGTA 461 are included, my ranks are **34/1209 (Top 3%)** for Play Prediction task and 154/1209 for Time Played Prediction task.*
 
 ### [Assignment 2](https://cseweb.ucsd.edu/classes/fa23/cse258-a/files/assignment2.pdf)
-- This is an open-ended project.
+- This is an open-ended project. We were doing a sentiment analysis task on Google Local dataset using bag-of-words model.
+- Our project repository is linked [here](https://github.com/hgnzheng/CSE158-Assignment_2). 
 
-*My project partners are [Nate del Rosario](https://github.com/natdosan), [Chuong Nguyen](https://github.com/chuongnguyen26), and [Trevan Nguyen](https://github.com/SudoSure). The solution for this assignment/project is the collective efforts among us.*
+*Note: there are major errors in our report that are inconsistent with our model training statistics. We'll fix these errors at some point*.
+
+*My project partners are [Nate del Rosario](https://github.com/natdosan), [Chuong Nguyen](https://github.com/chuongnguyen26), and [Trevan Nguyen](https://github.com/SudoSure). The solution for this assignment is the collective efforts among us.*
 
 ## End Note
 *Special thanks to Prof. [Julian McAuley](https://cseweb.ucsd.edu/~jmcauley/) for his dedication in teaching the course and answering questions on Piazza. Also, I appreciate TAs' efforts to hold office hours and answer Piazza posts.*
